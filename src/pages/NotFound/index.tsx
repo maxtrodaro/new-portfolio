@@ -1,13 +1,15 @@
-import React, { memo } from "react";
+import React, { memo } from 'react';
+import { Link } from 'react-router-dom';
 
-import { Notfound } from "./styles";
+import { Notfound } from './styles';
 
 const NotFound: React.FC = () => {
-  return (
-    <Notfound>
-      <h1>404 not found</h1>
-    </Notfound>
-  );
+	return (
+		<Notfound>
+			<h1>Página não encontrada!</h1>
+			<Link to="/">Voltar para a home</Link>
+		</Notfound>
+	);
 };
 
 export default memo(NotFound);

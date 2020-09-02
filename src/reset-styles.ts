@@ -7,6 +7,7 @@ export default createGlobalStyle`
 		--primary-color: #3f58b3;
 		--secondary-color: #428cd3;
 		--tertiary-color: #5fd1fe;
+		--light-blue: #F2FFFE;
 		--light-grey: #ccc;
 		--light-black: #3e3e3e;
 		--black: #000;
@@ -25,6 +26,7 @@ export default createGlobalStyle`
 		font: 400 14px 'Poppins', sans-serif;
 		-webkit-font-smoothing: antialiased;
 		overflow-x: hidden;
+		background: var(--light-blue);
 	}
 
 	input,
