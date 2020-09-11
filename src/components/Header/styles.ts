@@ -50,6 +50,7 @@ export const Menu = styled.section`
 		}
 
 		li {
+			line-height: 16px;
 			margin-right: 20px;
 			position: relative;
 
@@ -63,11 +64,17 @@ export const Menu = styled.section`
 			h2 {
 				color: var(--primary-color);
 				cursor: pointer;
-				font-size: 24px;
+				font-size: 20px;
 
 				@media (max-width: 767px) {
 					font-size: 18px;
 				}
+			}
+
+			svg {
+				fill: var(--primary-color);
+				height: 22px;
+				width: 24px;
 			}
 		}
 	}

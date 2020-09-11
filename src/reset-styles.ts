@@ -26,7 +26,6 @@ export default createGlobalStyle`
 		font: 400 14px 'Poppins', sans-serif;
 		-webkit-font-smoothing: antialiased;
 		overflow-x: hidden;
-		background: var(--light-blue);
 	}
 
 	input,

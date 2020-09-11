@@ -1,15 +1,16 @@
 import React, { memo } from 'react';
 
 import Header from '../../components/Header';
-
-import { Container } from './styles';
+import BannerPrincipal from '../../components/BannerPrincipal';
+import Services from '../../components/Services';
 
 const Home: React.FC = () => {
 	return (
-		<Container>
+		<>
 			<Header></Header>
-			<h1>Home</h1>
-		</Container>
+			<BannerPrincipal></BannerPrincipal>
+			<Services></Services>
+		</>
 	);
 };
 
