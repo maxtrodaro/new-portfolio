@@ -1,5 +1,6 @@
 import React, { memo } from 'react';
 
+import Social from '../Social';
 import serviceBanner from '../../assets/service-banner.png';
 import { Container, Image, TextInfo } from './styles';
 import { BsCheckCircle } from 'react-icons/bs';
@@ -39,6 +40,7 @@ const Services: React.FC = () => {
 						<BsCheckCircle />
 						<span>UX/UI Design</span>
 					</li>
+					<Social />
 				</ul>
 			</TextInfo>
 		</Container>

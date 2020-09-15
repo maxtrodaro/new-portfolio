@@ -48,13 +48,11 @@ export const TextInfo = styled.section`
 	}
 
 	ul {
+		margin-top: 20px;
 		li {
 			align-items: center;
 			display: flex;
-
-			&:not(:last-child) {
-				margin-bottom: 10px;
-			}
+			margin-bottom: 10px;
 
 			svg {
 				color: var(--secondary-color);
