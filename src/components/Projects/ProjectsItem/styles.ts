@@ -2,13 +2,17 @@ import styled from 'styled-components';
 
 export const Container = styled.article`
 	background: var(--white);
-	border-radius: 6px;
-	-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-	-moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+	border-radius: 10px;
+	box-shadow: 0 10px 20px 0 rgba(68, 88, 144, .2);
+	cursor: pointer;
 	margin-bottom: 40px;
 	padding: 10px 20px 20px;
-	width: 32%;
+	transition: all .3s ease-in-out;
+	width: 30%;
+
+	&:hover {
+		transform: scale(1.1);
+	}
 
 	img {
 		display: block;
@@ -21,10 +25,14 @@ export const Container = styled.article`
 		font-size: 18px;
 		text-align: center;
 
-		a {
+		h3 {
 			color: var(--primary-color);
 			text-transform: uppercase;
 			letter-spacing: 0.4px;
+		}
+
+		p {
+			color: var(--secondary-color);
 		}
 	}
 
@@ -36,19 +44,16 @@ export const Container = styled.article`
 		text-align: center;
 	}
 
-	p {
+	span {
 		display: none;
 	}
 
-	.linkToProject {
+	p {
+		color: var(--primary-color);
 		display: block;
+		font-size: 14px;
+		font-weight: 600;
 		margin-top: 20px;
 		text-align: center;
-
-		a {
-			color: var(--primary-color);
-			font-size: 14px;
-			font-weight: 600;
-		}
 	}
 `;

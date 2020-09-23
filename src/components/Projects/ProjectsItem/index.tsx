@@ -6,6 +6,8 @@ interface ProjectsItemValue {
 	description: string;
 	name: string;
 	imageSource: string;
+	linkProject: string;
+	platform: string;
 }
 
 interface ProjectsItemsProps {
@@ -16,40 +18,23 @@ const ProjectsItem: React.FC<ProjectsItemsProps> = ({ items }) => (
 	<>
 		{items.map((item, i) => (
 			<Container key={i} itemScope itemType="http://schema.org/CreativeWork">
-				<div>
+				<a
+					href={item.linkProject}
+					target="_blank"
+					rel="noopener noreferrer">
 					<img
 						src={item.imageSource}
-						title={`Desenvolvimento VTEX - ${item.name}`}
-						alt={`Desenvolvimento VTEX - ${item.name}`}
+						title={`Desenvolvimento ${item.platform} - ${item.name}`}
+						alt={`Desenvolvimento ${item.platform} - ${item.name}`}
 						itemProp="image"
 					/>
-				</div>
-				<div>
 					<h2 itemProp="name">
-						<a
-							href={item.imageSource}
-							title={`Desenvolvimento VTEX - ${item.name}`}
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							{item.name}
-						</a>
-						<span itemProp="keywords">Desenvolvimento VTEX</span>
+						<h3 title={`Desenvolvimento ${item.platform} - ${item.name}`}>{item.name}</h3>
+						<p itemProp="keywords">Desenvolvimento {item.platform}</p>
 					</h2>
-				</div>
-				<div itemProp="description">
-					<p>{item.description}</p>
-				</div>
-				<div className="linkToProject">
-					<a
-						href={item.imageSource}
-						title={`Desenvolvimento VTEX - ${item.name}`}
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Ver projeto
-					</a>
-				</div>
+					<span itemProp="description">{item.description}</span>
+					<p>Ver projeto</p>
+				</a>
 			</Container>
 		))}
 	</>

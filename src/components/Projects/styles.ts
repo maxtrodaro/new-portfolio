@@ -16,6 +16,7 @@ export const Container = styled.section`
 export const Title = styled.h2`
 	color: var(--light-black);
 	font-size: 36px;
+	margin-bottom: 40px;
 	text-align: center;
 
 	&::after {
