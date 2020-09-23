@@ -4,6 +4,7 @@ import Header from '../../components/Header';
 import BannerPrincipal from '../../components/BannerPrincipal';
 import Services from '../../components/Services';
 import Projects from '../../components/Projects';
+import Footer from '../../components/Footer';
 
 const Home: React.FC = () => {
 	return (
@@ -12,6 +13,7 @@ const Home: React.FC = () => {
 			<BannerPrincipal></BannerPrincipal>
 			<Services></Services>
 			<Projects></Projects>
+			<Footer></Footer>
 		</>
 	);
 };
