@@ -5,6 +5,7 @@ import BannerPrincipal from '../../components/BannerPrincipal';
 import Services from '../../components/Services';
 import Projects from '../../components/Projects';
 import Footer from '../../components/Footer';
+import Contact from '../../components/Contact';
 
 const Home: React.FC = () => {
 	return (
@@ -13,6 +14,7 @@ const Home: React.FC = () => {
 			<BannerPrincipal></BannerPrincipal>
 			<Services></Services>
 			<Projects></Projects>
+			<Contact></Contact>
 			<Footer></Footer>
 		</>
 	);

@@ -61,10 +61,12 @@ export const Menu = styled.section`
 				padding: 20px;
 			}
 
-			h2 {
+			a {
 				color: var(--primary-color);
 				cursor: pointer;
 				font-size: 20px;
+				font-weight: 700;
+				text-decoration: none;
 
 				@media (max-width: 767px) {
 					font-size: 18px;

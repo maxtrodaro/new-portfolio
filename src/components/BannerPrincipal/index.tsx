@@ -7,7 +7,7 @@ import bannerPrincipal from '../../assets/banner-principal.png';
 
 const BannerPrincipal = () => {
 	return (
-		<Container>
+		<Container id="home">
 			<section>
 				<TextInfo>
 					<h2>Desenvolvedor Freelancer Front End</h2>

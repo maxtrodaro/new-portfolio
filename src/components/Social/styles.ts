@@ -6,7 +6,10 @@ export const Container = styled.ul`
 
 	li {
 		line-height: 16px;
-		margin-right: 20px;
+
+		&:not(:last-child) {
+			margin-right: 20px;
+		}
 
 		svg {
 			color: var(--primary-color);

@@ -7,7 +7,7 @@ import { BsCheckCircle } from 'react-icons/bs';
 
 const Services: React.FC = () => {
 	return (
-		<Container>
+		<Container id="sobre">
 			<Image>
 				<img src={serviceBanner} alt="Banner Serviços" />
 			</Image>

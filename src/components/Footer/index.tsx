@@ -1,18 +1,37 @@
 import React, { memo } from 'react';
 import { BsCheckCircle } from 'react-icons/bs';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import Logo from '../../assets/logo.png';
-import { Container, Infos } from './styles';
+import { Container, Infos, Copyright } from './styles';
 import Social from '../Social';
 
 const Footer = () => {
 	return (
-		<Container>
-			<Infos>
+		<>
+			<Container>
+				<Infos>
 				<img src={Logo} alt="Logo Eduardo Godoy" />
 				<p>Olá, sou Eduardo Godoy e sou desenvolvedor há mais de 2 anos. Freelancer VTEX, VTEX IO e Tray.</p>
 			</Infos>
-			<Infos>
+				<Infos className="web-sections">
+				<h2>Seções</h2>
+				<ul>
+					<li>
+						<AnchorLink href='#home' offset={() => 100}>Home</AnchorLink>
+					</li>
+					<li>
+						<AnchorLink href='#sobre' offset={() => 100}>Sobre</AnchorLink>
+					</li>
+					<li>
+						<AnchorLink href='#projetos' offset={() => 100}>Projetos</AnchorLink>
+					</li>
+					<li>
+						<AnchorLink href='#contato' offset={() => 100}>Contatos</AnchorLink>
+					</li>
+				</ul>
+			</Infos>
+				<Infos>
 				<h2>Serviços</h2>
 				<ul>
 					<li>
@@ -37,9 +56,9 @@ const Footer = () => {
 					</li>
 				</ul>
 			</Infos>
-			<Infos>
-				<h2>Contatos</h2>
-				<ul>
+				<Infos>
+					<h2>Contatos</h2>
+					<ul>
 					<li>
 						<BsCheckCircle />
 						<span>Telefone</span>
@@ -52,14 +71,15 @@ const Footer = () => {
 					</li>
 					<li>
 						<BsCheckCircle />
-						<span>Email</span>
-						<p>dudurossigodoy2010@gmail.com.br</p>
+						<span>dudurossigodoy2010@gmail.com.br</span>
 					</li>
 				</ul>
-				<h2>Redes Sociais</h2>
-				<Social />
-			</Infos>
-		</Container>
+					<h2 style={{marginTop: "20px"}}>Redes Sociais</h2>
+					<Social />
+				</Infos>
+			</Container>
+			<Copyright>© Copyright Todos os direitos reservados <b>Eduardo Godoy Desenvolvedor Freelancer</b></Copyright>
+		</>
 	)
 }
 

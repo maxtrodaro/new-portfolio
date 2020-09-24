@@ -10,7 +10,11 @@ export const Container = styled.section `
 `
 
 export const Infos = styled.div `
-	width: 24%;
+	width: 26%;
+
+	&.web-sections {
+		width: 15%;
+	}
 
 	h2, img {
 		margin-bottom: 15px;
@@ -24,16 +28,23 @@ export const Infos = styled.div `
 			svg {
 				color: var(--secondary-color);
 				height: 25px;
+				margin-right: 10px;
 				width: 25px;
 			}
 
-			span {
-				margin-left: 10px;
-
+			a {
+				color: var(--black);
+				font-size: 14px;
+				text-decoration: none;
 				&~ * {
 					margin-left: 10px;
 				}
 			}
 		}
 	}
+`
+
+export const Copyright = styled.p `
+	margin: 20px 0;
+	text-align: center;
 `

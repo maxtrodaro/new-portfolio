@@ -1,5 +1,6 @@
 import React, { memo } from 'react';
 import { Link } from 'react-router-dom';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import Social from '../Social';
 import logoImg from '../../assets/logo.png';
@@ -17,19 +18,16 @@ const Header: React.FC = () => {
 				<Menu>
 					<ul>
 						<li>
-							<h2>Home</h2>
+							<AnchorLink href='#home' offset={() => 100}>Home</AnchorLink>
 						</li>
 						<li>
-							<h2>Sobre</h2>
+							<AnchorLink href='#sobre' offset={() => 100}>Sobre</AnchorLink>
 						</li>
 						<li>
-							<h2>Projetos</h2>
+							<AnchorLink href='#projetos' offset={() => 100}>Projetos</AnchorLink>
 						</li>
 						<li>
-							<h2>Tecnologias</h2>
-						</li>
-						<li>
-							<h2>Contato</h2>
+							<AnchorLink href='#contato' offset={() => 100}>Contato</AnchorLink>
 						</li>
 						<Social />
 					</ul>
