@@ -30,7 +30,6 @@ const Input: React.FC<InputProps> = ({
 
 	const handleInputBlur = useCallback(() => {
 		setIsFocused(false);
-		console.log(inputRef.current?.value);
 
 		if (inputRef.current?.value) {
 			setIsFilled(true);
@@ -40,8 +39,6 @@ const Input: React.FC<InputProps> = ({
 	}, []);
 
 	return (
-		<>
-		{console.log(isFilled)}
 		<Container
 			isFilled={isFilled}
 			isFocused={isFocused}
@@ -56,7 +53,6 @@ const Input: React.FC<InputProps> = ({
 				{...rest}
 			/>
 		</Container>
-		</>
 	);
 };
 

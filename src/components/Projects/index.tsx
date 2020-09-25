@@ -16,9 +16,7 @@ const Projects: React.FC = () => {
 	return (
 		<Container id="projetos">
 			<section>
-				<div>
-					<Title>Projetos que participei</Title>
-				</div>
+				<Title>Projetos que participei</Title>
 				<ProjectContainer>
 					<ProjectsItem
 						items={[

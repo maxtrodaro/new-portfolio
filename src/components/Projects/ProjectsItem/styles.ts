@@ -21,14 +21,14 @@ export const Container = styled.article`
 		max-width: 100%;
 	}
 
-	h2 {
+	div {
 		font-size: 18px;
 		text-align: center;
 
 		h3 {
 			color: var(--primary-color);
-			text-transform: uppercase;
 			letter-spacing: 0.4px;
+			text-transform: uppercase;
 		}
 
 		p {

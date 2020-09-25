@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com';
 
 import Button from '../Button';
 import Input from '../Input';
-import { Container, Textarea } from './styles';
+import { Container, Title, Form, Textarea } from './styles';
 
 const Contact = () => {
 	const sendEmail = (e: any) => {
@@ -20,14 +20,14 @@ const Contact = () => {
 
 	return (
 		<Container id="contato">
-			<h2>Vamos trabalhar juntos?<br />Entre em contato!</h2>
-			<form className="contact-form" onSubmit={sendEmail}>
+			<Title>Vamos trabalhar juntos?<br />Entre em contato!</Title>
+			<Form onSubmit={sendEmail}>
 				<Input type="text" name="name" placeholder="Nome" required />
 				<Input type="text" name="email" placeholder="Email" required />
 				<Input type="text" name="phone" placeholder="Telefone" required />
 				<Textarea name="message" placeholder="Mensagem" required />
 				<Button type='submit'>Enviar contato</Button>
-			</form>
+			</Form>
 		</Container>
 	)
 }

@@ -28,10 +28,10 @@ const ProjectsItem: React.FC<ProjectsItemsProps> = ({ items }) => (
 						alt={`Desenvolvimento ${item.platform} - ${item.name}`}
 						itemProp="image"
 					/>
-					<h2 itemProp="name">
+					<div itemProp="name">
 						<h3 title={`Desenvolvimento ${item.platform} - ${item.name}`}>{item.name}</h3>
 						<p itemProp="keywords">Desenvolvimento {item.platform}</p>
-					</h2>
+					</div>
 					<span itemProp="description">{item.description}</span>
 					<p>Ver projeto</p>
 				</a>
