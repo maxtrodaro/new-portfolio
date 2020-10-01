@@ -18,16 +18,24 @@ const Header: React.FC = () => {
 				<Menu>
 					<ul>
 						<li>
-							<AnchorLink href='#home' offset={() => 100}>Home</AnchorLink>
+							<AnchorLink href="#home" offset={() => 100}>
+								Home
+							</AnchorLink>
 						</li>
 						<li>
-							<AnchorLink href='#sobre' offset={() => 100}>Sobre</AnchorLink>
+							<AnchorLink href="#sobre" offset={() => 100}>
+								Sobre
+							</AnchorLink>
 						</li>
 						<li>
-							<AnchorLink href='#projetos' offset={() => 100}>Projetos</AnchorLink>
+							<AnchorLink href="#projetos" offset={() => 100}>
+								Projetos
+							</AnchorLink>
 						</li>
 						<li>
-							<AnchorLink href='#contato' offset={() => 100}>Contato</AnchorLink>
+							<AnchorLink href="#contato" offset={() => 80}>
+								Contato
+							</AnchorLink>
 						</li>
 						<Social />
 					</ul>

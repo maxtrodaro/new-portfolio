@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
-import Button from '../Button';
 import { Container, TextInfo, Image } from './styles';
 
 import bannerPrincipal from '../../assets/banner-principal.png';
@@ -12,7 +12,9 @@ const BannerPrincipal = () => {
 				<TextInfo>
 					<h2>Desenvolvedor Freelancer Front End</h2>
 					<h3>Programador VTEX, VTEX IO e Wordpress</h3>
-					<Button>Entre em contato agora</Button>
+					<AnchorLink href="#contato" offset={() => 80}>
+						Entre em contato agora
+					</AnchorLink>
 				</TextInfo>
 				<Image>
 					<img src={bannerPrincipal} alt="Banner Principal" />

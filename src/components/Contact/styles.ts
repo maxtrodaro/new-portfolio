@@ -1,12 +1,39 @@
 import styled from 'styled-components';
 
-export const Container = styled.section `
+export const Container = styled.section`
 	margin: 0 auto;
 	max-width: 900px;
 	padding: 50px 0;
 	position: relative;
 	width: 100%;
-`
+
+	&.success {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+
+		p {
+			font-size: 18px;
+			margin-top: 20px;
+		}
+
+		svg {
+			background: var(--green);
+			border-radius: 50%;
+			fill: var(--white);
+			height: 70px;
+			width: 70px;
+		}
+
+		em {
+			display: block;
+			font-size: 18px;
+			font-weight: 700;
+			margin: 24px 0 10px;
+			text-align: center;
+		}
+	}
+`;
 
 export const Title = styled.h2`
 	color: var(--light-black);
@@ -37,10 +64,10 @@ export const Textarea = styled.textarea`
 	&::placeholder {
 		color: var(--light-black);
 	}
-`
+`;
 
 export const Form = styled.form`
 	align-items: center;
 	display: flex;
 	flex-direction: column;
-`
+`;

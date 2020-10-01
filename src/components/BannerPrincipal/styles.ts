@@ -40,6 +40,20 @@ export const TextInfo = styled.section`
 		font-size: 28px;
 		margin-bottom: 20px;
 	}
+
+	a {
+		background: var(--secondary-color);
+		border: 0;
+		border-radius: 10px;
+		color: var(--white);
+		font-weight: 500;
+		height: 56px;
+		line-height: 56px;
+		margin-top: 16px;
+		padding: 18px 16px;
+		text-align: center;
+		transition: background-color 0.2s;
+	}
 `;
 
 export const Image = styled.section`

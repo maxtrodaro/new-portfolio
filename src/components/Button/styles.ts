@@ -11,4 +11,32 @@ export const Container = styled.button`
 	padding: 0 16px;
 	text-align: center;
 	transition: background-color 0.2s;
+
+	&.loading {
+		border: 2px solid var(--tertiary-color);
+		color: transparent;
+		position: relative;
+
+		&::before {
+			animation: loading 0.7s linear infinite;
+			border: 3px solid var(--tertiary-color);
+			border-radius: 100%;
+			border-top-color: var(--white);
+			content: '';
+			display: inline-block;
+			font-size: 25px;
+			height: 1em;
+			left: 0;
+			margin: -3px auto;
+			position: absolute;
+			right: 0;
+			width: 1em;
+		}
+	}
+
+	@keyframes loading {
+		to {
+			transform: rotate(360deg);
+		}
+	}
 `;

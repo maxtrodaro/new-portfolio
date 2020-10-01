@@ -13,6 +13,7 @@ export default createGlobalStyle`
 		--black: #000;
 		--grey: #808080;
 		--white: #fff;
+		--green: #008b6f;
 	}
 
 	* {
@@ -29,7 +30,8 @@ export default createGlobalStyle`
 	}
 
 	input,
-	button {
+	button,
+	a {
 		font: 400 18px 'OpenSans', sans-serif;
 	}
 
