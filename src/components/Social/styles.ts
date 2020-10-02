@@ -7,6 +7,11 @@ export const Container = styled.ul`
 	li {
 		line-height: 16px;
 
+		@media (max-width: 767px) {
+			padding: 10px !important;
+			width: auto !important;
+		}
+
 		&:not(:last-child) {
 			margin-right: 20px;
 		}

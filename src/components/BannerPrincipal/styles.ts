@@ -8,6 +8,10 @@ export const Container = styled.section`
 	position: relative;
 	width: 100%;
 
+	@media (max-width: 767px) {
+		clip-path: polygon(0 0, 100% 0, 100% 107vh, 0 100%);
+	}
+
 	> section {
 		align-items: center;
 		display: flex;
@@ -16,6 +20,10 @@ export const Container = styled.section`
 		margin: 0 auto;
 		max-width: 1200px;
 		padding: 50px 0;
+
+		@media (max-width: 767px) {
+			padding: 20px;
+		}
 	}
 
 	img {
@@ -30,15 +38,30 @@ export const TextInfo = styled.section`
 	display: block;
 	flex-basis: 50%;
 
+	@media (max-width: 767px) {
+		margin-bottom: 20px;
+		flex-basis: 100%;
+	}
+
 	h2 {
 		font-size: 48px;
 		font-weight: 600;
 		margin-bottom: 40px;
+
+		@media (max-width: 767px) {
+			font-size: 32px;
+			text-align: center;
+		}
 	}
 
 	h3 {
 		font-size: 28px;
 		margin-bottom: 20px;
+
+		@media (max-width: 767px) {
+			font-size: 22px;
+			text-align: center;
+		}
 	}
 
 	a {
@@ -53,6 +76,12 @@ export const TextInfo = styled.section`
 		padding: 18px 16px;
 		text-align: center;
 		transition: background-color 0.2s;
+
+		@media (max-width: 767px) {
+			display: flex;
+			justify-content: center;
+			padding: 0;
+		}
 	}
 `;
 
@@ -60,4 +89,8 @@ export const Image = styled.section`
 	align-items: center;
 	display: flex;
 	flex-basis: 50%;
+
+	@media (max-width: 767px) {
+		flex-basis: 100%;
+	}
 `;

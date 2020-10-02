@@ -7,6 +7,10 @@ export const Container = styled.section`
 	position: relative;
 	width: 100%;
 
+	@media (max-width: 767px) {
+		padding: 20px;
+	}
+
 	&.success {
 		align-items: center;
 		display: flex;
@@ -40,6 +44,10 @@ export const Title = styled.h2`
 	font-size: 36px;
 	margin-bottom: 40px;
 	text-align: center;
+
+	@media (max-width: 767px) {
+		font-size: 24px;
+	}
 
 	&::after {
 		background: var(--light-black);

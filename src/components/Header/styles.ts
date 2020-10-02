@@ -8,6 +8,7 @@ export const Container = styled.section`
 	top: 0;
 	width: 100%;
 	z-index: 1;
+
 	header {
 		align-items: center;
 		display: flex;
@@ -30,36 +31,18 @@ export const Logo = styled.section`
 
 export const Menu = styled.section`
 	@media (max-width: 767px) {
-		width: 100%;
-		position: absolute;
-		background: #303030;
-		top: 70px;
-		left: 0;
-		transform: translateY(-150%);
-		transition: all ease-in-out 0.5s;
+		display: none;
 	}
+
 	ul {
 		align-items: center;
 		display: flex;
 		justify-content: space-between;
 
-		@media (max-width: 767px) {
-			width: 100%;
-			float: none;
-			flex-wrap: wrap;
-		}
-
 		li {
 			line-height: 16px;
 			margin-right: 20px;
 			position: relative;
-
-			@media (max-width: 767px) {
-				width: 100%;
-				flex-wrap: wrap;
-				margin: 0;
-				padding: 20px;
-			}
 
 			a {
 				color: var(--primary-color);
@@ -67,10 +50,6 @@ export const Menu = styled.section`
 				font-size: 20px;
 				font-weight: 700;
 				text-decoration: none;
-
-				@media (max-width: 767px) {
-					font-size: 18px;
-				}
 			}
 
 			svg {
@@ -103,5 +82,91 @@ export const MenuMobile = styled.section`
 		&:not(:last-child) {
 			margin-bottom: 5px;
 		}
+	}
+`;
+
+export const NavMenuMobile = styled.section`
+	background: var(--secondary-color);
+	display: block;
+	height: 100vh;
+	left: 0;
+	padding: 0 20px;
+	position: absolute;
+	top: 0;
+	transform: translateX(-150%);
+	transition: all ease-in-out 0.5s;
+	width: 80%;
+	z-index: 1;
+
+	@media (min-width: 767px) {
+		display: none;
+	}
+
+	div {
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
+		padding: 20px 0 20px 10px;
+
+		p {
+			color: var(--white);
+			font-size: 18px;
+			font-weight: 700;
+		}
+
+		svg {
+			color: var(--white);
+			height: 32px;
+			width: 34px;
+		}
+	}
+
+	ul {
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		float: none;
+		flex-wrap: wrap;
+
+		li {
+			line-height: 16px;
+			margin-right: 20px;
+			position: relative;
+			width: 100%;
+			margin: 0;
+			padding: 20px 20px 20px 10px;
+
+			a {
+				color: var(--white);
+				cursor: pointer;
+				font-size: 18px;
+				font-weight: 700;
+				text-decoration: none;
+			}
+
+			svg {
+				fill: var(--white);
+				height: 22px;
+				width: 24px;
+			}
+		}
+	}
+
+	&.menuOpen {
+		transform: translateX(0%);
+	}
+`;
+
+export const Overlay = styled.section`
+	background: rgba(0, 0, 0, 0.6);
+	display: none;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+	&.menuOpen {
+		display: block;
 	}
 `;

@@ -13,32 +13,44 @@ const Services: React.FC = () => {
 			</Image>
 			<TextInfo>
 				<h2>Eduardo Godoy - Desenvolvedor Freelancer Front End</h2>
-				<h3>Programador Freelancer Front End VTEX</h3>
+				<h3>Programador Freelancer Front End</h3>
 				<p>
 					Trabalho com desenvolvimento há mais de 2 anos, especializado em
 					análise de bugs, desenvolvimento focado em E-commerce, CRO e
 					principalmente técnicas de SEO e UX/UI.
 				</p>
 				<ul>
-					<li>
+					<li title="Freelancer VTEX">
 						<BsCheckCircle />
-						<span>VTEX</span>
+						<span itemProp="keywords">VTEX</span>
 					</li>
-					<li>
+					<li title="Freelancer VTEX IO">
 						<BsCheckCircle />
-						<span>SEO</span>
+						<span itemProp="keywords">VTEX IO</span>
 					</li>
-					<li>
+					<li title="Freelancer Tray">
 						<BsCheckCircle />
-						<span>Análise e Performance</span>
+						<span itemProp="keywords">Tray</span>
 					</li>
-					<li>
+					<li title="Freelancer Loja Integrada">
 						<BsCheckCircle />
-						<span>CRO</span>
+						<span itemProp="keywords">Loja Integrada</span>
 					</li>
-					<li>
+					<li title="Especialista SEO">
 						<BsCheckCircle />
-						<span>UX/UI Design</span>
+						<span itemProp="keywords">SEO</span>
+					</li>
+					<li title="Performance de sites">
+						<BsCheckCircle />
+						<span itemProp="keywords">Análise e Performance</span>
+					</li>
+					<li title="Análise de dados - CRO">
+						<BsCheckCircle />
+						<span itemProp="keywords">CRO</span>
+					</li>
+					<li title="Designer Gráfico - UX Design - UI Design">
+						<BsCheckCircle />
+						<span itemProp="keywords">UX/UI Design</span>
 					</li>
 					<Social />
 				</ul>
