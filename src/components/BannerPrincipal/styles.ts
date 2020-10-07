@@ -56,6 +56,7 @@ export const TextInfo = styled.section`
 
 	h3 {
 		font-size: 28px;
+		font-weight: 600;
 		margin-bottom: 20px;
 
 		@media (max-width: 767px) {

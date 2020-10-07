@@ -85,7 +85,7 @@ export const TextInfo = styled.section`
 
 			span {
 				font-size: 16px;
-				font-weight: 900;
+				font-weight: 600;
 				margin-left: 10px;
 			}
 		}
