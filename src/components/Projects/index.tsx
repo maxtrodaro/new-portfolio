@@ -23,7 +23,7 @@ const Projects: React.FC = () => {
 							{
 								imageSource: Compracerta,
 								name: 'Compra Certa',
-								linkProject: 'https://www.loja.compracerta.com.br/',
+								linkProject: 'https://loja.compracerta.com.br/',
 								platform: 'VTEX',
 								description:
 									'Desenvolvimento VTEX e desenvolvimento VTEX IO do clube de compras Compra Certa, onde mantenho o site feito em CMS e realizei a migração do site VTEX CMS para VTEX IO.',
