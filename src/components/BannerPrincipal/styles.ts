@@ -9,7 +9,7 @@ export const Container = styled.section`
 	width: 100%;
 
 	@media (max-width: 767px) {
-		clip-path: polygon(0 0, 100% 0, 100% 107vh, 0 100%);
+		clip-path: inherit;
 	}
 
 	> section {
