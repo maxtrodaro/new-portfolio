@@ -23,7 +23,7 @@ const Projects: React.FC = () => {
 							{
 								imageSource: Compracerta,
 								name: 'Compra Certa',
-								linkProject: 'https://www.compracerta.com.br/',
+								linkProject: 'https://www.loja.compracerta.com.br/',
 								platform: 'VTEX',
 								description:
 									'Desenvolvimento VTEX e desenvolvimento VTEX IO do clube de compras Compra Certa, onde mantenho o site feito em CMS e realizei a migração do site VTEX CMS para VTEX IO.',
@@ -38,7 +38,7 @@ const Projects: React.FC = () => {
 								linkProject: 'https://www.puket.com.br/',
 								platform: 'VTEX',
 								description:
-									'Desenvolvimento VTEX da loja de roupas Puket, onde desesenvolvi o lazyload da home page e todas as vitrines do ecommerce.'
+									'Desenvolvimento VTEX da loja de roupas Puket, onde desesenvolvi o lazyload da home page e todas as vitrines do ecommerce.',
 							},
 						]}
 					/>
