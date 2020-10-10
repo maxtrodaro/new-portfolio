@@ -1,9 +1,7 @@
 import React, { memo } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
-import { Container, TextInfo, Image } from './styles';
-
-import bannerPrincipal from '../../assets/banner-principal.png';
+import { Container, TextInfo } from './styles';
 
 const BannerPrincipal = () => {
 	return (
@@ -16,9 +14,6 @@ const BannerPrincipal = () => {
 						Entre em contato agora
 					</AnchorLink>
 				</TextInfo>
-				<Image>
-					<img src={bannerPrincipal} alt="Banner Principal" />
-				</Image>
 			</section>
 		</Container>
 	);

@@ -42,7 +42,7 @@ export const TextInfo = styled.section`
 		margin-bottom: 20px;
 	}
 
-	h2 {
+	h1 {
 		color: var(--light-black);
 		font-size: 32px;
 		font-weight: 600;
@@ -53,7 +53,7 @@ export const TextInfo = styled.section`
 		}
 	}
 
-	h3 {
+	h2 {
 		color: var(--secondary-color);
 		font-size: 22px;
 		margin-bottom: 20px;
@@ -68,6 +68,20 @@ export const TextInfo = styled.section`
 		font-weight: 600;
 		font-size: 16px;
 		margin-bottom: 20px;
+	}
+
+	a {
+		color: var(--primary-color);
+		font-size: 18px;
+		font-weight: 700;
+	}
+
+	.item_description {
+		color: transparent;
+		height: 1px;
+		position: fixed;
+		transform: translateX(-1000%);
+		width: 1px;
 	}
 
 	ul {

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.section`
 	background: var(--light-blue);
-	clip-path: polygon(0 0, 100% 0, 100% 103vh, 0 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
 	margin: 0 auto;
 	padding-top: 98px;
 	position: relative;
@@ -16,10 +16,10 @@ export const Container = styled.section`
 		align-items: center;
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: space-between;
+		justify-content: center;
 		margin: 0 auto;
 		max-width: 1200px;
-		padding: 50px 0;
+		padding: 100px 0;
 
 		@media (max-width: 767px) {
 			padding: 20px;
@@ -36,7 +36,7 @@ export const TextInfo = styled.section`
 	align-self: flex-start;
 	color: var(--light-black);
 	display: block;
-	flex-basis: 50%;
+	text-align: center;
 
 	@media (max-width: 767px) {
 		margin-bottom: 20px;
@@ -83,15 +83,5 @@ export const TextInfo = styled.section`
 			justify-content: center;
 			padding: 0;
 		}
-	}
-`;
-
-export const Image = styled.section`
-	align-items: center;
-	display: flex;
-	flex-basis: 50%;
-
-	@media (max-width: 767px) {
-		flex-basis: 100%;
 	}
 `;

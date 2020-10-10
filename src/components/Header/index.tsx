@@ -103,7 +103,7 @@ const Header: React.FC = () => {
 								</AnchorLink>
 							</li>
 							<li>
-								<AnchorLink href="#sobre" offset={() => 100}>
+								<AnchorLink href="#sobre" offset={() => 70}>
 									Sobre
 								</AnchorLink>
 							</li>
