@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-	background: var(--light-blue);
+	background: var(--light-black);
 	margin: 0 auto;
 	position: relative;
 	width: 100%;
@@ -18,7 +18,7 @@ export const Container = styled.section`
 `;
 
 export const Title = styled.h2`
-	color: var(--light-black);
+	color: var(--white);
 	font-size: 36px;
 	margin-bottom: 40px;
 	text-align: center;
@@ -28,7 +28,7 @@ export const Title = styled.h2`
 	}
 
 	&::after {
-		background: var(--light-black);
+		background: var(--white);
 		content: '';
 		display: block;
 		height: 2px;

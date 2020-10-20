@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-	background: var(--light-blue);
+	background: var(--light-black);
 	clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
 	margin: 0 auto;
 	padding-top: 98px;
@@ -34,7 +34,7 @@ export const Container = styled.section`
 
 export const TextInfo = styled.section`
 	align-self: flex-start;
-	color: var(--light-black);
+	color: var(--white);
 	display: block;
 	text-align: center;
 
@@ -66,7 +66,7 @@ export const TextInfo = styled.section`
 	}
 
 	a {
-		background: var(--secondary-color);
+		background: var(--primary-color);
 		border: 0;
 		border-radius: 10px;
 		color: var(--white);
@@ -77,6 +77,10 @@ export const TextInfo = styled.section`
 		padding: 18px 16px;
 		text-align: center;
 		transition: background-color 0.2s;
+
+		&:hover {
+			background: var(--tertiary-color);
+		}
 
 		@media (max-width: 767px) {
 			display: flex;

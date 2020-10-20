@@ -6,6 +6,7 @@ import { RiCloseFill } from 'react-icons/ri';
 import { isMobile } from 'react-device-detect';
 
 import Social from '../Social';
+import Partners from '../Partners';
 import logoImg from '../../assets/logo.png';
 import {
 	Container,
@@ -31,6 +32,7 @@ const Header: React.FC = () => {
 						<img src={logoImg} alt="Logo Eduardo Godoy" />
 					</Link>
 				</Logo>
+				<Partners />
 				{isMobile ? (
 					<>
 						<MenuMobile onClick={handleOpenMenu}>
@@ -103,7 +105,7 @@ const Header: React.FC = () => {
 								</AnchorLink>
 							</li>
 							<li>
-								<AnchorLink href="#sobre" offset={() => 70}>
+								<AnchorLink href="#sobre" offset={() => 120}>
 									Sobre
 								</AnchorLink>
 							</li>
@@ -117,7 +119,6 @@ const Header: React.FC = () => {
 									Contato
 								</AnchorLink>
 							</li>
-							<Social />
 						</ul>
 					</Menu>
 				)}

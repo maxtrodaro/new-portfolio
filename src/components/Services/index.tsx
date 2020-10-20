@@ -1,8 +1,7 @@
 import React, { memo } from 'react';
 
-import Social from '../Social';
 import serviceBanner from '../../assets/service-banner.png';
-import { Container, Image, TextInfo } from './styles';
+import { Container, Image, TextInfo, Partners } from './styles';
 import { BiCheck } from 'react-icons/bi';
 
 const Services: React.FC = () => {
@@ -96,6 +95,9 @@ const Services: React.FC = () => {
 				<p className="item_description">
 					Evolução de e-commerce Loja Integrada.
 				</p>
+			</TextInfo>
+			<Partners>
+				<h2>Serviços que realizo</h2>
 				<ul>
 					<li title="Freelancer VTEX">
 						<BiCheck />
@@ -129,9 +131,8 @@ const Services: React.FC = () => {
 						<BiCheck />
 						<span itemProp="keywords">UX/UI Design</span>
 					</li>
-					<Social />
 				</ul>
-			</TextInfo>
+			</Partners>
 		</Container>
 	);
 };

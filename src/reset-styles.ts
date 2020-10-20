@@ -4,16 +4,13 @@ export default createGlobalStyle`
 	@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 	:root {
-		--primary-color: #3f58b3;
-		--secondary-color: #428cd3;
-		--tertiary-color: #5fd1fe;
-		--light-blue: #F2FFFE;
-		--light-grey: #ccc;
-		--light-black: #3e3e3e;
+		--primary-color: #88CE31;
+		--secondary-color: #5EBFE0;
+		--tertiary-color: #9aca3c;
+		--light-black: #272727;
 		--black: #000;
 		--grey: #808080;
 		--white: #fff;
-		--green: #008b6f;
 	}
 
 	* {

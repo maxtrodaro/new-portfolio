@@ -22,7 +22,7 @@ export const Container = styled.section`
 		}
 
 		svg {
-			background: var(--green);
+			background: var(--primary-color);
 			border-radius: 50%;
 			fill: var(--white);
 			height: 70px;

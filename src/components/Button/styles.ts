@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.button`
-	background: var(--secondary-color);
+	background: var(--primary-color);
 	border: 0;
 	border-radius: 10px;
 	color: var(--white);
@@ -11,6 +11,10 @@ export const Container = styled.button`
 	padding: 0 16px;
 	text-align: center;
 	transition: background-color 0.2s;
+
+	&:hover {
+		background: var(--tertiary-color);
+	}
 
 	&.loading {
 		border: 2px solid var(--tertiary-color);
