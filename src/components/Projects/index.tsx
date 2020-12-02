@@ -9,7 +9,7 @@ import DoceMalu from '../../assets/doce-malu.png';
 import MyaHaas from '../../assets/myahaas.png';
 import ViaNut from '../../assets/vianut.png';
 import CasaTudo from '../../assets/casatudo.png';
-import Tempomix from '../../assets/tempomix.png';
+import ArrobaFestas from '../../assets/arrobafestas.png';
 import { Container, Title, ProjectContainer } from './styles';
 
 const Projects: React.FC = () => {
@@ -69,12 +69,12 @@ const Projects: React.FC = () => {
 					<ProjectsItem
 						items={[
 							{
-								imageSource: Tempomix,
-								name: 'Tempomix',
-								linkProject: 'https://www.tempomix.com.br/',
-								platform: 'Tray',
+								imageSource: CasaTudo,
+								name: 'Casa Tudo',
+								linkProject: 'https://www.casatudo.com.br/',
+								platform: 'VTEX',
 								description:
-									'Desenvolvimento Tray da loja de roupas Tempomix, desenvolvimento de layout responsivo na plataforma Tray, implantação da loja e reprodução de layout.',
+									'Desenvolvimento VTEX da loja de home care Casatudo, desenvolvimento de layout responsivo na plataforma VTEX, implantação da loja e reprodução de layout.',
 							},
 						]}
 					/>
@@ -105,24 +105,24 @@ const Projects: React.FC = () => {
 					<ProjectsItem
 						items={[
 							{
-								imageSource: ViaNut,
-								name: 'Via Nut',
-								linkProject: 'https://www.vianut.com.br/',
+								imageSource: ArrobaFestas,
+								name: 'Arroba Festas',
+								linkProject: 'https://www.arrobafestas.com.br/',
 								platform: 'VTEX',
 								description:
-									'Desenvolvimento VTEX da loja de nutrição Via Nut, desenvolvimento de layout responsivo na plataforma VTEX, implantação da loja e reprodução de layout.',
+									'Freelancer VTEX da loja Arrobafestas, desenvolvimento do layout, otimização de performance, SEO e manutenção de layout.',
 							},
 						]}
 					/>
 					<ProjectsItem
 						items={[
 							{
-								imageSource: CasaTudo,
-								name: 'Casa Tudo',
-								linkProject: 'https://www.casatudo.com.br/',
+								imageSource: ViaNut,
+								name: 'Via Nut',
+								linkProject: 'https://www.vianut.com.br/',
 								platform: 'VTEX',
 								description:
-									'Desenvolvimento VTEX da loja de home care Casatudo, desenvolvimento de layout responsivo na plataforma VTEX, implantação da loja e reprodução de layout.',
+									'Desenvolvimento VTEX da loja de nutrição Via Nut, desenvolvimento de layout responsivo na plataforma VTEX, implantação da loja e reprodução de layout.',
 							},
 						]}
 					/>

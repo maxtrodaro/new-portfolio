@@ -43,7 +43,7 @@ export const Infos = styled.div`
 			display: flex;
 
 			svg {
-				color: var(--secondary-color);
+				color: var(--primary-color);
 				height: 25px;
 				margin-right: 10px;
 				width: 25px;
