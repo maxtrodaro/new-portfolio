@@ -41,6 +41,10 @@ const Services: React.FC = () => {
 					pensando a maior conversão para seu site.
 				</p>
 				<p className="item_description">
+					Desenvolvimento TrayCorp, criação de sites com sites com muito SEO,
+					sempre pensando a maior conversão para seu site.
+				</p>
+				<p className="item_description">
 					Desenvolvimento Loja Integrada, criação de sites com sites com muito
 					SEO, sempre pensando a maior conversão para seu site.
 				</p>
@@ -50,6 +54,10 @@ const Services: React.FC = () => {
 				</p>
 				<p className="item_description">
 					Desenvolvedor Front End Tray focado no SEO para melhorar o
+					ranqueamento do seu site no Google.
+				</p>
+				<p className="item_description">
+					Desenvolvedor Front End TrayCorp focado no SEO para melhorar o
 					ranqueamento do seu site no Google.
 				</p>
 				<p className="item_description">
@@ -63,6 +71,11 @@ const Services: React.FC = () => {
 				<p className="item_description">
 					Desenvolvimento Tray, criando o site da sua maneira e sempre seguindo
 					as melhores práticas para que seu negócio venda cada vez mais.
+				</p>
+				<p className="item_description">
+					Desenvolvimento TrayCorp, criando o site da sua maneira e sempre
+					seguindo as melhores práticas para que seu negócio venda cada vez
+					mais.
 				</p>
 				<p className="item_description">
 					Desenvolvimento Loja Integrada, criando o site da sua maneira e sempre
@@ -83,6 +96,10 @@ const Services: React.FC = () => {
 					ao acessar seu site.
 				</p>
 				<p className="item_description">
+					Realizo ajustes em lojas TrayCorp para melhor experiência do seu
+					cliente ao acessar seu site.
+				</p>
+				<p className="item_description">
 					Realizo ajustes em lojas Loja Integrada para melhor experiência do seu
 					cliente ao acessar seu site.
 				</p>
@@ -92,6 +109,7 @@ const Services: React.FC = () => {
 				</p>
 				<p className="item_description">Evolução de e-commerce VTEX.</p>
 				<p className="item_description">Evolução de e-commerce Tray.</p>
+				<p className="item_description">Evolução de e-commerce TrayCorp.</p>
 				<p className="item_description">
 					Evolução de e-commerce Loja Integrada.
 				</p>
@@ -101,11 +119,19 @@ const Services: React.FC = () => {
 				<ul>
 					<li title="Freelancer VTEX">
 						<BiCheck />
-						<span itemProp="keywords">VTEX, VTEX IO</span>
+						<span itemProp="keywords">VTEX</span>
+					</li>
+					<li title="Freelancer VTEX IO">
+						<BiCheck />
+						<span itemProp="keywords">VTEX IO</span>
 					</li>
 					<li title="Freelancer Tray">
 						<BiCheck />
 						<span itemProp="keywords">Tray</span>
+					</li>
+					<li title="Freelancer TrayCorp">
+						<BiCheck />
+						<span itemProp="keywords">TrayCorp</span>
 					</li>
 					<li title="Freelancer Loja Integrada">
 						<BiCheck />

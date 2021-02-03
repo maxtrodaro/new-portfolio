@@ -14,7 +14,7 @@ const Footer = () => {
 					<img src={Logo} alt="Logo Eduardo Godoy" />
 					<p>
 						Olá, sou Eduardo Godoy e sou desenvolvedor há mais de 2 anos.
-						Freelancer VTEX, VTEX IO, Tray e Loja Integrada.
+						Freelancer VTEX, VTEX IO, Tray, TrayCorp e Loja Integrada.
 					</p>
 				</Infos>
 				<Infos>
