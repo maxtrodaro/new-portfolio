@@ -14,23 +14,15 @@ const Services: React.FC = () => {
 				<h1>Eduardo Godoy - Desenvolvedor Freelancer Front End</h1>
 				<h2>Programador Freelancer Front End</h2>
 				<p>
-					Trabalho com desenvolvimento há mais de 2 anos, especializado em
+					Trabalho com desenvolvimento há mais de 3 anos, especializado em
 					aumento de conversão, análise de bugs, desenvolvimento focado em
 					E-commerce, CRO e principalmente técnicas de SEO e UX/UI.
 				</p>
 				<p>
-					Atualmente atuo como Desenvolvedor Front-end VTEX na{' '}
-					<strong>Jussi</strong>, na squad de conversão do maior clube de
-					compras do Brasil, o{' '}
-					<a
-						href="https://loja.compracerta.com.br/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Compra Certa
-					</a>
-					, não só desenvolvendo tarefas, mas ajudando no crescimento do produto
-					como um todo.
+					Atualmente atuo como Desenvolvedor Front-end no {''}
+					<strong>Grupo Boticário</strong>, na squad do Clube Fidelidade do
+					grupo, dando suporte para os sites Boticário, Quem Disse Berenice e
+					Beauty Box.
 				</p>
 				<p className="item_description">
 					Desenvolvimento VTEX, criação de sites com sites com muito SEO, sempre
