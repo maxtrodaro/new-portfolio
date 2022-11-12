@@ -3,7 +3,8 @@ import { BiCheck } from 'react-icons/bi';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import Logo from '../../assets/logo.png';
-import { Container, Infos, Copyright } from './styles';
+import Whatsapp from '../../assets/whatsapp.png';
+import { Container, Infos, Copyright, FloatButton } from './styles';
 import Social from '../Social';
 
 const Footer = () => {
@@ -13,8 +14,8 @@ const Footer = () => {
 				<Infos>
 					<img src={Logo} alt="Logo Eduardo Godoy" />
 					<p>
-						Olá, sou Eduardo Godoy e sou desenvolvedor há mais de 2 anos.
-						Freelancer VTEX, VTEX IO, Tray, TrayCorp e Loja Integrada.
+						Olá, sou Eduardo Godoy e sou desenvolvedor há mais de 4 anos.
+						Freelancer VTEX, VTEX IO e Loja Integrada.
 					</p>
 				</Infos>
 				<Infos>
@@ -97,6 +98,13 @@ const Footer = () => {
 				© Copyright Todos os direitos reservados{' '}
 				<b>Eduardo Godoy Desenvolvedor Freelancer</b>
 			</Copyright>
+			<FloatButton
+				href="https://api.whatsapp.com/send?phone=5511972384255&text=Oi%20Eduardo%20Godoy!"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<img src={Whatsapp} alt="Link Whatsapp" />
+			</FloatButton>
 		</>
 	);
 };

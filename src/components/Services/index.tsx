@@ -14,27 +14,17 @@ const Services: React.FC = () => {
 				<h1>Eduardo Godoy - Desenvolvedor Freelancer Front End</h1>
 				<h2>Programador Freelancer Front End</h2>
 				<p>
-					Trabalho com desenvolvimento há mais de 3 anos, especializado em
+					Trabalho com desenvolvimento há mais de 4 anos, especializado em
 					aumento de conversão, análise de bugs, desenvolvimento focado em
 					E-commerce, CRO e principalmente técnicas de SEO e UX/UI.
 				</p>
 				<p>
-					Atualmente atuo como Desenvolvedor Front-end no {''}
-					<strong>Grupo Boticário</strong>, na squad do Clube Fidelidade do
-					grupo, dando suporte para os sites Boticário, Quem Disse Berenice e
-					Beauty Box.
+					Atualmente atuo como Desenvolvedor Front-end na {''}
+					<strong>Jungsoft</strong>, uma empresa alemã, atuando em um <strong>marketplace da Alemanha</strong>.
 				</p>
 				<p className="item_description">
 					Desenvolvimento VTEX, criação de sites com sites com muito SEO, sempre
 					pensando a maior conversão para seu site.
-				</p>
-				<p className="item_description">
-					Desenvolvimento Tray, criação de sites com sites com muito SEO, sempre
-					pensando a maior conversão para seu site.
-				</p>
-				<p className="item_description">
-					Desenvolvimento TrayCorp, criação de sites com sites com muito SEO,
-					sempre pensando a maior conversão para seu site.
 				</p>
 				<p className="item_description">
 					Desenvolvimento Loja Integrada, criação de sites com sites com muito
@@ -45,29 +35,12 @@ const Services: React.FC = () => {
 					ranqueamento do seu site no Google.
 				</p>
 				<p className="item_description">
-					Desenvolvedor Front End Tray focado no SEO para melhorar o
-					ranqueamento do seu site no Google.
-				</p>
-				<p className="item_description">
-					Desenvolvedor Front End TrayCorp focado no SEO para melhorar o
-					ranqueamento do seu site no Google.
-				</p>
-				<p className="item_description">
 					Desenvolvedor Front End Loja Integrada focado no SEO para melhorar o
 					ranqueamento do seu site no Google.
 				</p>
 				<p className="item_description">
 					Desenvolvimento VTEX, criando o site da sua maneira e sempre seguindo
 					as melhores práticas para que seu negócio venda cada vez mais.
-				</p>
-				<p className="item_description">
-					Desenvolvimento Tray, criando o site da sua maneira e sempre seguindo
-					as melhores práticas para que seu negócio venda cada vez mais.
-				</p>
-				<p className="item_description">
-					Desenvolvimento TrayCorp, criando o site da sua maneira e sempre
-					seguindo as melhores práticas para que seu negócio venda cada vez
-					mais.
 				</p>
 				<p className="item_description">
 					Desenvolvimento Loja Integrada, criando o site da sua maneira e sempre
@@ -84,14 +57,6 @@ const Services: React.FC = () => {
 					ao acessar seu site.
 				</p>
 				<p className="item_description">
-					Realizo ajustes em lojas Tray para melhor experiência do seu cliente
-					ao acessar seu site.
-				</p>
-				<p className="item_description">
-					Realizo ajustes em lojas TrayCorp para melhor experiência do seu
-					cliente ao acessar seu site.
-				</p>
-				<p className="item_description">
 					Realizo ajustes em lojas Loja Integrada para melhor experiência do seu
 					cliente ao acessar seu site.
 				</p>
@@ -100,8 +65,6 @@ const Services: React.FC = () => {
 					realizando a integração completa do seu site.
 				</p>
 				<p className="item_description">Evolução de e-commerce VTEX.</p>
-				<p className="item_description">Evolução de e-commerce Tray.</p>
-				<p className="item_description">Evolução de e-commerce TrayCorp.</p>
 				<p className="item_description">
 					Evolução de e-commerce Loja Integrada.
 				</p>
@@ -116,14 +79,6 @@ const Services: React.FC = () => {
 					<li title="Freelancer VTEX IO">
 						<BiCheck />
 						<span itemProp="keywords">VTEX IO</span>
-					</li>
-					<li title="Freelancer Tray">
-						<BiCheck />
-						<span itemProp="keywords">Tray</span>
-					</li>
-					<li title="Freelancer TrayCorp">
-						<BiCheck />
-						<span itemProp="keywords">TrayCorp</span>
 					</li>
 					<li title="Freelancer Loja Integrada">
 						<BiCheck />

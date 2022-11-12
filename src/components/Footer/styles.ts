@@ -69,3 +69,10 @@ export const Copyright = styled.p`
 		margin: 20px;
 	}
 `;
+
+export const FloatButton = styled.a`
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	z-index: 10;
+`;

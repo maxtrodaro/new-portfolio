@@ -23,9 +23,9 @@ const Contact = () => {
 					setFormSuccess(true);
 				},
 				error => {
-					console.log(error);
+					console.log("error", error);
 					setIsLoading(false);
-					e.target.reset();
+					alert("Estamos com um problema no serviço de e-mail. Favor entrar em contato via WhatsApp!");
 				},
 			);
 	};
@@ -54,7 +54,7 @@ const Contact = () => {
 					<Title>
 						Vamos trabalhar juntos?
 						<br />
-						Entre em contato!
+						Entre em contato agora!
 					</Title>
 					<Form onSubmit={sendEmail}>
 						<Input type="text" name="name" placeholder="Nome" required />
